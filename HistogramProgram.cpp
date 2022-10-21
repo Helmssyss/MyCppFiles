@@ -27,7 +27,7 @@ void banner() {
 void histogram(int* arr) {
 	srand((unsigned int)time(0));
 	for(int i = 0; i < 6; i++){
-		arr[i] = rand() % 30;
+		arr[i] = rand() % 30; // 0 ile 30 arasında (30 dahil değil) rastgele sayılar
 		cout << fmt::format(" {0}\t  {1}\t\t ", i, arr[i]);
 		for(int j = 0; j < arr[i]; j++){
 			cout << "*";
