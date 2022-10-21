@@ -1,3 +1,5 @@
+//luhn algoritması bütün rakamlar iki ile çarpılır. çarpım sonucu bütün sayılar toplanır. çıkan sonuç 10'un katı ise(10'a tam bölünüyorsa) kredi kartı numarası doğrudur
+
 #include <iostream>
 #include <locale.h>
 using namespace std;
