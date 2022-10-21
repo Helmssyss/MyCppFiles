@@ -36,3 +36,17 @@ void histogram(int* arr) {
 	}
 
 }
+
+
+/* -> ekran çıktısı
+
+Dizi Boyutu 6
+
+Indis    Dizi Elemanı    Histogram
+ 0        4              ****
+ 1        16             ****************
+ 2        13             *************
+ 3        10             **********
+ 4        29             *****************************
+ 5        6              ******
+*/
